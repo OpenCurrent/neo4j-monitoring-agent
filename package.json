@@ -1,0 +1,25 @@
+{
+  "name": "@finco-services/neo4j-cluster-monitor",
+  "version": "0.0.1",
+  "description": "Monitoring and Alerting for Neo4j",
+  "main": "index.js",
+  "scripts": {
+    "test": "semistandard",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "neo4j",
+    "alerting",
+    "monitoring"
+  ],
+  "author": "Gregory Maglio",
+  "license": "MIT",
+  "devDependencies": {
+    "semistandard": "^12.0.0"
+  },
+  "dependencies": {
+    "config": "^1.29.2",
+    "debug": "^3.1.0",
+    "superagent": "^3.8.2"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "neo4j": [
+    {
+      "url": "neo4j-node1"
+    },
+    {
+      "url": "neo4j-node2"
+    }
+  ],
+  "timers": {
+    "avail": 10000
+  },
+  "pagerDuty": {
+    "uri": "https://events.pagerduty.com/v2/enqueue",
+    "routing_key": "",
+    "source_name": "neo4j-monitor"
+  }
+}
